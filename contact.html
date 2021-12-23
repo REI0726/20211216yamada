@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contact</title>
+  <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+<!--ヘッター-->
+<header class="header" id="header">
+  <h3 class="header__ttl">
+    <a href="index.html">TECH</a>
+  </h3>
+  <nav class="nav" id="nav">
+    <ul class="header__nav-list">
+      <li class="header__nav-item"><a href="index.html">ホーム</a></li>
+      <li class="header__nav-item"><a href="service.html">事業内容</a></li>
+      <li class="header__nav-item"><a href="news.html">ニュース</a></li>
+      <li class="header__nav-item"><a href="blog.html">社員ブログ</a></li>
+      <li class="header__nav-item"><a href="company.html">会社概要</a></li>
+      <li class="header__nav-item"><a href="recruit.html">採用情報</a></li>
+      <li class="header__nav-item"><a href="contact.html">お問い合わせ</a></li>
+    </ul>
+  </nav>
+  <div class="hum" id="hum">
+    <span class="hum__line--top"></span>
+    <span class="hum__line--middle"></span>
+    <span class="hum__line--bottom"></span>
+  </div>
+</header>
+
+<!---->
+<div class="cover">
+  <h1 class="cover__text">お問い合わせ</h1>
+</div>
+
+<!--お問い合わせ-->
+<form class="form" name="contact" method="POST">
+  <div class="form__item">
+    <p class="form__item__label">会社名</p>
+    <input type="text" name="company" class="form__item__input">
+  </div>
+  <div class="form__item">
+    <p class="form__item__label">氏名</p>
+    <input type="text" name="name" class="form__item__input">
+  </div>
+  <div class="form__item">
+    <p class="form__item__label">メールアドレス</p>
+    <input type="email" name="email" class="form__item__input" >
+  </div>
+  <div class="form__item">
+    <p class="form__item__label">お問い合わせ内容</p>
+    <textarea name="textarea" class="form__item__textarea"></textarea>
+  </div>
+  <input type="submit" class="form__btn" value="お申し込み">
+</form>
+
+<!--フッター-->
+<div class="footer">
+  <small class="copyright">
+    &copy; 2020 TECH inc.
+  </small>
+  <nav class="footer__nav">
+    <ul class="footer__nav-list">
+      <li class="footer__nav-item"><a href="index.html">ホーム</a></li>
+      <li class="footer__nav-item"><a href="service.html">事業内容</a></li>
+      <li class="footer__nav-item"><a href="news.html">ニュース</a></li>
+      <li class="footer__nav-item"><a href="blog.html">社員ブログ</a></li>
+      <li class="footer__nav-item"><a href="company.html">会社概要</a></li>
+      <li class="footer__nav-item"><a href="recruit.html">採用情報</a></li>
+      <li class="footer__nav-item"><a href="contact.html">お問い合わせ</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
