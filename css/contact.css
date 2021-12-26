@@ -151,7 +151,7 @@ a {
   font-weight: bold;
   margin: 20px 0 10px;
 }
-.form__item__label:not(:first-child) ::after {
+.form__item__label:not(first-child):after {
   content: "*";
   color: red;
 }
