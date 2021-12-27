@@ -151,11 +151,12 @@ a {
   font-weight: bold;
   margin: 20px 0 10px;
 }
-.form__item__label:not(first-child):after {
-  content: "*";
-  color: red;
+.form__item__label span {
+  color: rgb(175, 6, 6);
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px;
 }
-
 .form__item__input {
   border: 1px solid #ddd;
   height: 30px;
